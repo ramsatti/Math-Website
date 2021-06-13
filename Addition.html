@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>
+        Addition
+    </title>
+    <link rel="stylesheet" href="./styles/math style.css" />
+    <script src="./scripts/addition.js"></script>
+</head>
+
+<body onload="generateQuestion()">
+    <div class="aqua">
+        <nav>
+            <h3><a href="Addition.html">Addition</a></h3>
+            <h3><a href="Subtraction.html">Subtraction</a></h3>
+            <h3><a href="multiplication.html">multiplication</a></h3>
+            <h3><a href="division.html">division</a></h3>
+            <br>
+            <br>
+            <a href="index.html">Home</a>
+            <p id="question">
+                
+            </p>
+
+            <input type="number" id="answer" />
+            <br>
+            <br>
+            <button onclick="checkAnswer()">
+                Submit
+            </button>
+            <p id="correct" style="color: rgb(38, 255, 38);">
+
+            </p>
+            <p id="wrong" style="color: red;">
+
+            </p>
+        </nav>
+    </div>
+</body>
+
+</html>
